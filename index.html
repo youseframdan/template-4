@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>template 4</title>
+  <link rel="stylesheet" href="css/files.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+</head>
+
+<body>
+  <div class="settings-box">
+    <div class="toggle-settings">
+      <i class="fa fa-gear"></i>
+    </div>
+    <div class="settings-container">
+      <div class="option-box">
+        <h4>colors</h4>
+        <ul class="colors-list">
+          <li class="active" data-color="#ff9800"></li>
+          <li data-color=" #e91e63"></li>
+          <li data-color=" #009688"></li>
+          <li data-color=" #03a9f4"></li>
+          <li data-color=" #4caf50"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>random backgrounds</h4>
+        <div class="random-backgrounds">
+          <span class="yes active" data-background="yes">yes</span>
+          <span class="no" data-background="no">no</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>show bullets</h4>
+        <div class="bullets-option">
+          <span class="yes active" data-display="show">yes</span>
+          <span class="no" data-display="hide">no</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+  </div>
+  <div class="nav-bullets">
+    <div class="bullets" data-section=".about-us">
+      <div class="tooltip">about us</div>
+    </div>
+    <div class="bullets" data-section=".skills">
+      <div class="tooltip">our skills</div>
+    </div>
+    <div class="bullets" data-section=".gallery">
+      <div class="tooltip">our Gallery</div>
+    </div>
+    <div class="bullets" data-section=".timeline">
+      <div class="tooltip">timeline</div>
+    </div>
+    <div class="bullets" data-section=".features">
+      <div class="tooltip">Our Features</div>
+    </div>
+    <div class="bullets" data-section=".Testimonials">
+      <div class="tooltip">Testimonials</div>
+    </div>
+    <div class="bullets" data-section=".contact  ">
+      <div class="tooltip">Contact Us</div>
+    </div>
+
+  </div>
+  <div class="landing-page">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area">
+        <div class="logo">special design</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#" data-section=".about-us">about</a></li>
+            <li><a href="#" data-section=".skills">skills</a></li>
+            <li><a href="#" data-section=".gallery">Gallery</a></li>
+            <li><a href="#" data-section=".timeline">timeline</a></li>
+            <li><a href="#" data-section=".features">Features</a></li>
+            <li><a href="#" data-section=".Testimonials">Testimonials</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="introduction-text">
+      <h1>we are <span>creative</span> agency</h1>
+      <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+        Disputando Cuest.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="about-us">
+      <div class="info-box">
+        <h2>about us </h2>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+          Disputando Cuest.</p>
+      </div>
+      <div class="image-box">
+        <img src="img/About.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="skills">
+    <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript </div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Python</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">PHP </div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="images-box">
+        <img src="img/05.jpg" alt="image one">
+        <img src="img/02.jpeg" alt="image two">
+        <img src="img/03.jpg" alt="image three">
+        <img src="img/01.jpg" alt="image four">
+        <img src="img/04.jpg" alt="Image five">
+        <img src="img/05.jpg" alt="image one">
+        <img src="img/02.jpeg" alt="image two">
+        <img src="img/03.jpg" alt="image three">
+        <img src="img/01.jpg" alt="image four">
+        <img src="img/04.jpg" alt="Image five">
+      </div>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2018</div>
+        <div class="left">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+              Disputando Cuest.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+              Disputando Cuest.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="year">2016</div>
+        <div class="right">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+              Disputando Cuest.</p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+              Disputando Cuest.</p>
+          </div>
+        </div>
+        <div class="left">
+          <div class="content">
+            <h3>testing heading</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam, Te Usu Virtute Placerat, Purto Brute
+              Disputando Cuest.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="features">
+    <h2>our features</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="img/icon1.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon2.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon3.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon4.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon5.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="feat-box">
+        <img src="img/icon6.png" alt="">
+        <h4>development</h4>
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="Testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="ts-box">
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+        <div class="person-info">
+          <img src="https://Placehold.it/80/EEE" alt="">
+          <h4>mohamed ibrahim</h4>
+          <p>CEO At company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+        <div class="person-info">
+          <img src="https://Placehold.it/80/ddd" alt="">
+          <h4>Ahmed mosaad</h4>
+          <p>CEO At company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>Lorem Ipsum Dolor Sit Amet, Ea Doming Until Epicuri Iudicabit Nam.</p>
+        <div class="person-info">
+          <img src="https://Placehold.it/80/aaa" alt="">
+          <h4>yousef ramdan</h4>
+          <p>CEO At company</p>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="">
+        <div class="left">
+          <input type="text" placeholder="Your Name" name="username">
+          <input type="number" placeholder="Your Phone" name="phone">
+          <input type="email" placeholder="Your email" name="email">
+          <input type="text" placeholder="Subject" name="subject">
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="Your message"></textarea>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright © 2021 Focal - Built With Passion. </p>
+    <br>
+    <p>created by yousef ramdan</p>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
